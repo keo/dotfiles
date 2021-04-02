@@ -21,4 +21,5 @@ then
 
 fi
 
+brew bundle --file homebrew/Brewfile
 exit 0

@@ -3,6 +3,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "heroku/brew"
 
 # Apps
 brew "mas"
@@ -24,6 +25,7 @@ cask "tresorit"
 cask "brave-browser"
 cask "google-drive"
 cask "google-chrome"
+cask "transmission"
 
 # Development
 brew "gh"
@@ -33,6 +35,14 @@ cask "visual-studio-code"
 cask "vscodium"
 brew "docker"
 brew "docker-machine"
+brew "heroku"
+
+# Entertainment
+cask "spotify"
+cask "vlc"
+cask "subler"
+
+# App Store stuff
 
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456

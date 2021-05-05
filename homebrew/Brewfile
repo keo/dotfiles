@@ -43,6 +43,9 @@ cask "spotify"
 cask "vlc"
 cask "subler"
 
+# Communications
+cask "microsoft-teams"
+
 # App Store stuff
 
 mas "Affinity Designer", id: 824171161

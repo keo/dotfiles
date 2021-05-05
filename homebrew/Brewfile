@@ -30,7 +30,7 @@ cask "transmission"
 # Development
 brew "gh"
 cask "iterm2"
-cask "tower"
+cask "fork"
 cask "visual-studio-code"
 cask "vscodium"
 brew "docker"

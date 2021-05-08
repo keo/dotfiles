@@ -45,6 +45,7 @@ cask "subler"
 
 # Communications
 cask "microsoft-teams"
+cask "discord"
 
 # App Store stuff
 

@@ -20,6 +20,7 @@ cask "1password"
 cask "1password-cli"
 cask "viscosity"
 cask "tresorit"
+cask "gpg-suite"
 
 # Browsing
 cask "brave-browser"

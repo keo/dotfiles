@@ -12,6 +12,7 @@ cask "setapp"
 # Communications
 cask "signal"
 cask "superhuman"
+cask "skype"
 
 # Encryption & Secrets
 brew "gnupg"

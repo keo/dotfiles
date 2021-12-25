@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "heroku/brew"
+tap "gromgit/fuse"
 
 # Apps
 brew "mas"
@@ -13,6 +14,9 @@ cask "setapp"
 cask "signal"
 cask "superhuman"
 cask "skype"
+cask "microsoft-teams"
+cask "discord"
+cask "muzzle"
 
 # Encryption & Secrets
 brew "gnupg"
@@ -22,6 +26,7 @@ cask "1password-cli"
 cask "viscosity"
 cask "tresorit"
 cask "gpg-suite"
+brew "macfuse"
 
 # Browsing
 cask "brave-browser"
@@ -30,27 +35,25 @@ cask "google-chrome"
 cask "transmission"
 
 # Development
+brew "jemalloc" # M1-en mukodik?
 brew "gh"
 cask "iterm2"
 cask "fork"
 cask "visual-studio-code"
 cask "vscodium"
-brew "docker"
-brew "docker-machine"
+cask "docker"
 brew "heroku"
 brew "pwgen"
+brew "ruby-build", args: ["HEAD"]
+brew "rbenv"
 
 # Entertainment
 cask "spotify"
 cask "vlc"
 cask "subler"
-
-# Communications
-cask "microsoft-teams"
-cask "discord"
+cask "tidal"
 
 # App Store stuff
-
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
 mas "Bear", id: 1091189122
@@ -60,9 +63,7 @@ mas "Cryptowatch Desktop", id: 1527457231
 mas "DaisyDisk", id: 411643860
 mas "DaVinci Resolve", id: 571213070
 mas "Divvy", id: 413857545
-mas "GarageBand", id: 682658836
 mas "GoodNotes", id: 1444383602
-mas "iMovie", id: 408981434
 mas "JSONPeep", id: 1458969831
 mas "Keynote", id: 409183694
 mas "LanScan", id: 472226235

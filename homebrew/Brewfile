@@ -37,7 +37,7 @@ cask "transmission"
 # Development
 brew "jemalloc" # M1-en mukodik?
 brew "gh"
-cask "iterm2"
+cask "warp"
 cask "fork"
 cask "visual-studio-code"
 cask "vscodium"

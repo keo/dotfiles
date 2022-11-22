@@ -35,23 +35,18 @@ cask "google-chrome"
 cask "transmission"
 
 # Development
-brew "jemalloc" # M1-en mukodik?
 brew "gh"
 cask "warp"
 cask "fork"
 cask "visual-studio-code"
-cask "vscodium"
 cask "docker"
 brew "heroku"
 brew "pwgen"
-brew "ruby-build", args: ["HEAD"]
-brew "rbenv"
 
 # Entertainment
 cask "spotify"
 cask "vlc"
 cask "subler"
-cask "tidal"
 
 # App Store stuff
 mas "Affinity Designer", id: 824171161
